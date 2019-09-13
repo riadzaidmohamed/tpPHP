@@ -17,9 +17,7 @@ $var3 = 'Variable 3';
 <?php echo $var1 + $var2; ?>
 <br/>
 <br/>
-<?php
-start_page('titre');
-?>
+
 </body>
 
 </HTML>
