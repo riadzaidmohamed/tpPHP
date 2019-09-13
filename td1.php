@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<HTML>
+<HTML xmlns="http://www.w3.org/1999/html">
 
 <header></header>
 <body>
@@ -13,6 +13,7 @@ $var2 = 1.3;
 $var3 = 'Variable 3';
 ?>
 <?php echo "$var1 + $var2"; ?>
+<br/>
 <?php echo $var1 + $var2; ?>
 </body>
 
