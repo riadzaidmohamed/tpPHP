@@ -19,10 +19,9 @@ function end_page()
     echo'</body><html/>';
 };
 ?>
-
 <?php
-end_page();
+$jour = date('l F d, Y');
 ?>
 <?php
-echo date('l F d, Y');
+end_page();
 ?>
