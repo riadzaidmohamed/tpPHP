@@ -24,7 +24,7 @@ $jour = date('l F d, Y');
 echo $jour;
 ?>
 <?php
-$jour = date('d/m/Y', strtotime('2020-04-01'));
+$jour2 = date('d/m/Y', strtotime('2020-04-01'));
 ?>
 <?php
 end_page();
