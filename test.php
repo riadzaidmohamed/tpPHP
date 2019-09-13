@@ -21,6 +21,7 @@ function end_page()
 ?>
 <?php
 $jour = date('l F d, Y');
+echo jour;
 ?>
 <?php
 end_page();
