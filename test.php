@@ -13,6 +13,9 @@ start_page('titre');
 <hr/><br/><strong>Test</strong><br/><hr/>
 
 <?php
+echo date('l F d, Y');
+?>
+<?php
 function end_page()
 {
     echo'</body><html/>';
