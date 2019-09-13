@@ -24,8 +24,8 @@ start_page('titre');
 <?php
 function end_page
 {
-    echo'<body></body><html/>'
-}
+    echo'<body></body><html/>';
+};
 ?>
 
 
