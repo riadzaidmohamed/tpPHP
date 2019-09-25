@@ -23,8 +23,14 @@ function end_page()
 $jour = date('l F d, Y');
 echo $jour;
 ?>
+<br>
 <?php
 $jour2 = date('d/m/Y', strtotime('2020-04-01'));
+echo $jour2;
+?>
+<br>
+<?php
+$jour2 = date('F d, y, h:i a');
 echo $jour2;
 ?>
 <?php
