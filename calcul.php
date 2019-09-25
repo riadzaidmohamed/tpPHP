@@ -24,7 +24,7 @@ $op = $_POST['op'];
 <?php
 echo "op1 * op2 ="
 ?>
-?>
+
 <?php
 end_page();
 ?>
