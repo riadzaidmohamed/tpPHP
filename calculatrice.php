@@ -9,15 +9,15 @@ lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
 <?php
 function end_page()
 {
-    echo'</body><html/>';
+    echo'</body></html>';
 };
 ?>
 <?php
 start_page('calculatrice');
 ?>
 <form action="calcul.php" method="post">
-    <imput type="text" name="op1" value=""><br>
-    <imput type="text" name="op2"value=""><br>
+    <imput type="text" name="op1" value=""/><br>
+    <imput type="text" name="op2" value=""/><br>
     <input type="submit" value="Submit">
     <input checked="checked" type="radio" name="op" value="*"/>*<br/>
     <input type="radio" name="op" value="+"/>+<br/>
