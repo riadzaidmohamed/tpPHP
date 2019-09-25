@@ -35,7 +35,7 @@ start_page('calculatrice');
         echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
 }
     ?>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" name="Action">
 </form>
 
 <?php
