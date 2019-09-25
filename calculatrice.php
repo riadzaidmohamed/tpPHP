@@ -16,9 +16,8 @@ function end_page()
 start_page('calculatrice');
 ?>
 <form action="calcul.php" method="post">
-    <imput type="text" name="op1"><br>
-    <imput type="text" name="op2" ><br>
-
+    <input type="text" name="op1"><br>
+    <input type="text" name="op2" ><br>
     <input checked="checked" type="radio" name="op" value="*">*<br/>
     <input type="radio" name="op" value="+" >+<br/>
     <input type="radio" name="op" value="-" >-<br/>
