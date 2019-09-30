@@ -18,32 +18,31 @@ start_page('calcul');
 <?php
 $op1 = $_POST['op1'];
 $op2 = $_POST['op2'];
-$op = $_POST['op'];
 $action = $_POST['Action'];
 ?>
 
 
 <?php
-if('*' == $op)
+if('*' == $action)
 {
     echo $op1*$op2;
 }
-elseif('+' == $op)
+elseif('+' == $action)
 {
     echo $op1+$op2;
 }
-elseif('-' == $op)
+elseif('-' == $action)
 {
     echo $op1-$op2;
 }
-elseif ('/'== $op)
+elseif ('/'== $action)
 {
     echo $op1/$op2;
 }
 
 else
 {
-    echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
+    echo '<br/><strong>opérateur ' . $action . ' non géré </strong>';
 }
 ?>
 <br>
