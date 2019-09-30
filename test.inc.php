@@ -8,8 +8,7 @@ start_page('utils');
 <form action="data-processing.php" method="post">
     <input type="text" name="Identifiant">
     <br>
-    <input type="radio" value="Femme" name="Civilité"/>F
-    <br>
+    <input type="radio" value="Femme" name="Civilité"/>F/n
     <input type="radio" value="Homme" name="Civilité"/>H
     <br>
     <input type="text" name="e-mail">
