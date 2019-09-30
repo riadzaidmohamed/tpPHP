@@ -14,15 +14,3 @@ function end_page()
 };
 ?>
 
-<?php
-start_page('calcul');
-?>
-
-
-
-
-
-
-<?php
-end_page();
-?>
