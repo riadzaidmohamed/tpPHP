@@ -25,9 +25,9 @@ start_page('calculatrice');
     <input type="text" name="op1"><br>
     <input type="text" name="op2" ><br>
     <?php
-    for($cpt = 0 ; $cpt <= 3 ; ++$cpt)
-    {
+    for($cpt = 0 ; $cpt <= 3 ; ++$cpt) {
         echo '<input type="submit" value="$operateurs[$cpt]" name="Action">';
+    };
     ?>
         <input type="submit" value="Submit" name="Action">
 </form>
