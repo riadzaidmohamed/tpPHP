@@ -17,15 +17,15 @@ start_page('utils');
     <br>
     <input type="password" placeholder="retaper le mot de passe" name="mdp"/>
     <br>
-    <select>
+    <select name=" pays">
         <option value = "France"> France</option>
         <option value = "Comores"> Comores</option>
         <option value = "Saiyan"> Saiyan </option>
     </select>
     <br>
-    <input type="checkbox"/>Accepter-vous les condition général
+    <input type="checkbox" name=" condition"/>Accepter-vous les conditions générales
     <br>
-    <input type="submit"/>
+    <input type="submit" name="action" value="mailer"/>
 </form>
 
 <?php
